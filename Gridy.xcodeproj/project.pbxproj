@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61147DAE2270EEFD00FAAA82 /* GridPlacement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61147DAD2270EEFD00FAAA82 /* GridPlacement.swift */; };
+		613459E4226D9B370062F67C /* FramingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613459E3226D9B370062F67C /* FramingVC.swift */; };
+		618C741821AF341D003A62D2 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618C741721AF341D003A62D2 /* HomeVC.swift */; };
+		6196C37D226DB0D50018BCC2 /* PlayfieldVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6196C37C226DB0D50018BCC2 /* PlayfieldVC.swift */; };
+		619ECA75226FAC8200204B09 /* Slicing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619ECA74226FAC8200204B09 /* Slicing.swift */; };
+		619ECA77226FAE8400204B09 /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619ECA76226FAE8400204B09 /* Tile.swift */; };
+		619ECA79226FAF7E00204B09 /* TileDistribution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619ECA78226FAF7E00204B09 /* TileDistribution.swift */; };
+		619ECA7B226FB1E300204B09 /* ImageCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619ECA7A226FB1E300204B09 /* ImageCapture.swift */; };
+		619ECA7D226FD33200204B09 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619ECA7C226FD33200204B09 /* GameManager.swift */; };
+		61B74C3622780F40008BC3B2 /* TimeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B74C3522780F40008BC3B2 /* TimeManager.swift */; };
+		61B74C3822781E8A008BC3B2 /* MovesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B74C3722781E8A008BC3B2 /* MovesManager.swift */; };
+		61B74C3A2278D841008BC3B2 /* GameOverVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B74C392278D841008BC3B2 /* GameOverVC.swift */; };
+		61BC9E5022794A280061C01B /* GameOverAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BC9E4F22794A280061C01B /* GameOverAnimations.swift */; };
+		61DBA69B219C976E00384503 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DBA69A219C976E00384503 /* AppDelegate.swift */; };
+		61DBA6A0219C976E00384503 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61DBA69E219C976E00384503 /* Main.storyboard */; };
+		61DBA6A2219C976F00384503 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61DBA6A1219C976F00384503 /* Assets.xcassets */; };
+		61DBA6A5219C976F00384503 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61DBA6A3219C976F00384503 /* LaunchScreen.storyboard */; };
+		61FDB325227BEE990055E419 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61FDB324227BEE990055E419 /* AVFoundation.framework */; };
+		61FDB328227BF08C0055E419 /* Cancel 1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 61FDB327227BF08C0055E419 /* Cancel 1.m4a */; };
+		61FDB32A227BF0A60055E419 /* Error 4.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 61FDB329227BF0A60055E419 /* Error 4.m4a */; };
+		61FDB32C227BF0BD0055E419 /* Success 2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 61FDB32B227BF0BD0055E419 /* Success 2.m4a */; };
+		61FDB32E227BF0CE0055E419 /* Tab1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 61FDB32D227BF0CE0055E419 /* Tab1.m4a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		61147DAD2270EEFD00FAAA82 /* GridPlacement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GridPlacement.swift; path = Gridy/GridPlacement.swift; sourceTree = SOURCE_ROOT; };
+		613459E3226D9B370062F67C /* FramingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FramingVC.swift; path = Gridy/FramingVC.swift; sourceTree = "<group>"; };
+		618C741721AF341D003A62D2 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeVC.swift; path = Gridy/HomeVC.swift; sourceTree = "<group>"; };
+		6196C37C226DB0D50018BCC2 /* PlayfieldVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlayfieldVC.swift; path = Gridy/PlayfieldVC.swift; sourceTree = "<group>"; };
+		619ECA74226FAC8200204B09 /* Slicing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Slicing.swift; path = Gridy/Slicing.swift; sourceTree = SOURCE_ROOT; };
+		619ECA76226FAE8400204B09 /* Tile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Tile.swift; path = Gridy/Tile.swift; sourceTree = SOURCE_ROOT; };
+		619ECA78226FAF7E00204B09 /* TileDistribution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TileDistribution.swift; path = Gridy/TileDistribution.swift; sourceTree = SOURCE_ROOT; };
+		619ECA7A226FB1E300204B09 /* ImageCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ImageCapture.swift; path = Gridy/ImageCapture.swift; sourceTree = SOURCE_ROOT; };
+		619ECA7C226FD33200204B09 /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GameManager.swift; path = Gridy/GameManager.swift; sourceTree = SOURCE_ROOT; };
+		61B74C3522780F40008BC3B2 /* TimeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TimeManager.swift; path = Gridy/TimeManager.swift; sourceTree = SOURCE_ROOT; };
+		61B74C3722781E8A008BC3B2 /* MovesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MovesManager.swift; path = Gridy/MovesManager.swift; sourceTree = SOURCE_ROOT; };
+		61B74C392278D841008BC3B2 /* GameOverVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GameOverVC.swift; path = Gridy/GameOverVC.swift; sourceTree = "<group>"; };
+		61BC9E4F22794A280061C01B /* GameOverAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GameOverAnimations.swift; path = Gridy/GameOverAnimations.swift; sourceTree = SOURCE_ROOT; };
+		61DBA697219C976E00384503 /* Gridy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gridy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61DBA69A219C976E00384503 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Gridy/AppDelegate.swift; sourceTree = "<group>"; };
+		61DBA69F219C976E00384503 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		61DBA6A1219C976F00384503 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Gridy/Assets.xcassets; sourceTree = "<group>"; };
+		61DBA6A4219C976F00384503 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		61DBA6A6219C976F00384503 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Gridy/Info.plist; sourceTree = "<group>"; };
+		61FDB324227BEE990055E419 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		61FDB327227BF08C0055E419 /* Cancel 1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cancel 1.m4a"; sourceTree = "<group>"; };
+		61FDB329227BF0A60055E419 /* Error 4.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Error 4.m4a"; sourceTree = "<group>"; };
+		61FDB32B227BF0BD0055E419 /* Success 2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Success 2.m4a"; sourceTree = "<group>"; };
+		61FDB32D227BF0CE0055E419 /* Tab1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file.m4a; path = Tab1.m4a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61DBA694219C976E00384503 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61FDB325227BEE990055E419 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6152450221AC1E9900AEDDC1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				61FDB326227BEED70055E419 /* Sounds */,
+				61DBA69A219C976E00384503 /* AppDelegate.swift */,
+				61DBA6A1219C976F00384503 /* Assets.xcassets */,
+				61DBA6A3219C976F00384503 /* LaunchScreen.storyboard */,
+				61DBA6A6219C976F00384503 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6152450421AC1EDD00AEDDC1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				618C741721AF341D003A62D2 /* HomeVC.swift */,
+				613459E3226D9B370062F67C /* FramingVC.swift */,
+				6196C37C226DB0D50018BCC2 /* PlayfieldVC.swift */,
+				61B74C392278D841008BC3B2 /* GameOverVC.swift */,
+			);
+			name = Controller;
+			path = "Gridy-ThisOneWorks";
+			sourceTree = "<group>";
+		};
+		6152450521AC1EF700AEDDC1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				61DBA69E219C976E00384503 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		6152450621AC1F0300AEDDC1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6152450421AC1EDD00AEDDC1 /* Controller */,
+				619ECA74226FAC8200204B09 /* Slicing.swift */,
+				619ECA76226FAE8400204B09 /* Tile.swift */,
+				619ECA78226FAF7E00204B09 /* TileDistribution.swift */,
+				619ECA7A226FB1E300204B09 /* ImageCapture.swift */,
+				619ECA7C226FD33200204B09 /* GameManager.swift */,
+				61147DAD2270EEFD00FAAA82 /* GridPlacement.swift */,
+				61B74C3522780F40008BC3B2 /* TimeManager.swift */,
+				61B74C3722781E8A008BC3B2 /* MovesManager.swift */,
+				61BC9E4F22794A280061C01B /* GameOverAnimations.swift */,
+			);
+			name = Model;
+			path = Gridy/Model;
+			sourceTree = "<group>";
+		};
+		61DBA68E219C976E00384503 = {
+			isa = PBXGroup;
+			children = (
+				61DBA699219C976E00384503 /* Gridy */,
+				61DBA698219C976E00384503 /* Products */,
+				61FDB323227BEE990055E419 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		61DBA698219C976E00384503 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61DBA697219C976E00384503 /* Gridy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61DBA699219C976E00384503 /* Gridy */ = {
+			isa = PBXGroup;
+			children = (
+				6152450221AC1E9900AEDDC1 /* Supporting Files */,
+				6152450621AC1F0300AEDDC1 /* Model */,
+				6152450521AC1EF700AEDDC1 /* View */,
+			);
+			name = Gridy;
+			sourceTree = "<group>";
+		};
+		61FDB323227BEE990055E419 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61FDB324227BEE990055E419 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		61FDB326227BEED70055E419 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				61FDB32D227BF0CE0055E419 /* Tab1.m4a */,
+				61FDB32B227BF0BD0055E419 /* Success 2.m4a */,
+				61FDB329227BF0A60055E419 /* Error 4.m4a */,
+				61FDB327227BF08C0055E419 /* Cancel 1.m4a */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61DBA696219C976E00384503 /* Gridy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61DBA6A9219C976F00384503 /* Build configuration list for PBXNativeTarget "Gridy" */;
+			buildPhases = (
+				61DBA693219C976E00384503 /* Sources */,
+				61DBA694219C976E00384503 /* Frameworks */,
+				61DBA695219C976E00384503 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gridy;
+			productName = Gridy;
+			productReference = 61DBA697219C976E00384503 /* Gridy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61DBA68F219C976E00384503 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Matthew Sousa";
+				TargetAttributes = {
+					61DBA696219C976E00384503 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 61DBA692219C976E00384503 /* Build configuration list for PBXProject "Gridy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61DBA68E219C976E00384503;
+			productRefGroup = 61DBA698219C976E00384503 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61DBA696219C976E00384503 /* Gridy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61DBA695219C976E00384503 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61DBA6A5219C976F00384503 /* LaunchScreen.storyboard in Resources */,
+				61FDB32A227BF0A60055E419 /* Error 4.m4a in Resources */,
+				61DBA6A2219C976F00384503 /* Assets.xcassets in Resources */,
+				61DBA6A0219C976E00384503 /* Main.storyboard in Resources */,
+				61FDB32C227BF0BD0055E419 /* Success 2.m4a in Resources */,
+				61FDB32E227BF0CE0055E419 /* Tab1.m4a in Resources */,
+				61FDB328227BF08C0055E419 /* Cancel 1.m4a in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61DBA693219C976E00384503 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				618C741821AF341D003A62D2 /* HomeVC.swift in Sources */,
+				619ECA7D226FD33200204B09 /* GameManager.swift in Sources */,
+				61B74C3822781E8A008BC3B2 /* MovesManager.swift in Sources */,
+				61B74C3622780F40008BC3B2 /* TimeManager.swift in Sources */,
+				61DBA69B219C976E00384503 /* AppDelegate.swift in Sources */,
+				613459E4226D9B370062F67C /* FramingVC.swift in Sources */,
+				61BC9E5022794A280061C01B /* GameOverAnimations.swift in Sources */,
+				619ECA77226FAE8400204B09 /* Tile.swift in Sources */,
+				61147DAE2270EEFD00FAAA82 /* GridPlacement.swift in Sources */,
+				619ECA7B226FB1E300204B09 /* ImageCapture.swift in Sources */,
+				6196C37D226DB0D50018BCC2 /* PlayfieldVC.swift in Sources */,
+				619ECA75226FAC8200204B09 /* Slicing.swift in Sources */,
+				619ECA79226FAF7E00204B09 /* TileDistribution.swift in Sources */,
+				61B74C3A2278D841008BC3B2 /* GameOverVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		61DBA69E219C976E00384503 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61DBA69F219C976E00384503 /* Base */,
+			);
+			name = Main.storyboard;
+			path = Gridy;
+			sourceTree = "<group>";
+		};
+		61DBA6A3219C976F00384503 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61DBA6A4219C976F00384503 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = Gridy;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		61DBA6A7219C976F00384503 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		61DBA6A8219C976F00384503 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61DBA6AA219C976F00384503 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SPUKTJZVPR;
+				INFOPLIST_FILE = Gridy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MattSousa.Gridy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		61DBA6AB219C976F00384503 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SPUKTJZVPR;
+				INFOPLIST_FILE = Gridy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MattSousa.Gridy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61DBA692219C976E00384503 /* Build configuration list for PBXProject "Gridy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61DBA6A7219C976F00384503 /* Debug */,
+				61DBA6A8219C976F00384503 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61DBA6A9219C976F00384503 /* Build configuration list for PBXNativeTarget "Gridy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61DBA6AA219C976F00384503 /* Debug */,
+				61DBA6AB219C976F00384503 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61DBA68F219C976E00384503 /* Project object */;
+}
